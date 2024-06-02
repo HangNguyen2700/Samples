@@ -26,6 +26,7 @@ dependencies {
     implementation(libs.edc.http)
 
     implementation(libs.jakarta.rsApi)
+    implementation("com.h2database:h2:1.4.200")
 }
 
 application {
